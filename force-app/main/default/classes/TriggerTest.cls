@@ -23,7 +23,7 @@
 public with sharing class TriggerTest {
 
     /*
-    * Question 1
+    * Question 1 Completed
     * Account Trigger
     * When an account is inserted change the account type to 'Prospect' if there is no value in the type field.
     * Trigger should only fire on insert.
@@ -76,7 +76,7 @@ public with sharing class TriggerTest {
     }
 
     /*
-    * Question 2
+    * Question 2 Completed
     * Account Trigger
     * When an account is inserted copy the shipping address to the billing address.
     * BONUS: Check if the shipping fields are empty before copying.
@@ -137,7 +137,7 @@ public with sharing class TriggerTest {
     }
 
     /*
-    * Question 3
+    * Question 3 Completed
     * Account Trigger
 	* When an account is inserted set the rating to 'Hot' if the Phone, Website, and Fax ALL have a value.
     * Trigger should only fire on insert.
@@ -199,7 +199,7 @@ public with sharing class TriggerTest {
     }
 
     /*
-    * Question 4
+    * Question 4 Completed
     * Account Trigger
     * When an account is inserted create a contact related to the account with the following default values:
     * LastName = 'DefaultContact'
@@ -249,7 +249,7 @@ public with sharing class TriggerTest {
     }
 
     /*
-    * Question 5
+    * Question 5 Completed
     * Opportunity Trigger
     * When an opportunity is updated validate that the amount is greater than 5000.
     * Error Message: 'Opportunity amount must be greater than 5000'
@@ -302,7 +302,7 @@ public with sharing class TriggerTest {
     }
 
 	/*
-     * Question 6
+     * Question 6 Completed
 	 * Opportunity Trigger
 	 * When an opportunity is deleted prevent the deletion of a closed won opportunity if the account industry is 'Banking'.
 	 * Error Message: 'Cannot delete closed opportunity for a banking account that is won'
